@@ -1,0 +1,149 @@
+#gp-view {
+    position: fixed;
+    top: 0; left: 0; overflow: hidden; right: 0; top: 0;
+    background: #000;
+
+    width: 100%;
+    height: 100%;
+}
+
+#gp-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#gp-close div {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+
+    background: no-repeat url('../images/lightbox.png') 0 0;
+    margin: auto;
+}
+#gp-close:hover div {
+    height: 22px;
+    width: 22px;
+    background: no-repeat url('../images/lightbox.png') -41px -61px;
+}
+
+#gp-toleft, #gp-toright {
+    left: 0;
+    bottom: 131px;
+    position: absolute;
+    top: 60px;
+    width: 40px;
+
+    cursor: pointer;
+}
+#gp-toleft div, #gp-toright div {
+    background: no-repeat url('../images/lightbox.png') -86px -19px;
+    height: 40px;
+    margin-top: -20px;
+    width: 40px;
+    bottom: auto;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+#gp-toleft:hover div, #gp-toright:hover div {
+    background: no-repeat url('../images/lightbox.png') -19px -41px;
+    height: 25px;
+    left: -1px;
+    margin-top: 8px;
+    width: 20px;
+}
+
+#gp-toright {left: auto; right: 0;}
+#gp-toright div {background: no-repeat url('../images/lightbox.png') -149px -19px;}
+#gp-toright:hover div {background: no-repeat url('../images/lightbox.png') -127px -32px; left: 1px;}
+
+#gp-container {
+    position: absolute;
+    left: 40px;
+    bottom: 91px;
+    right: 40px;
+    top: 41px;
+}
+
+#gp-container-for-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#gp-container-image {
+    position: absolute;
+    opacity: 1;
+}
+#gp-container-image img {
+    display: block;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+#gp-container-panel {
+    opacity: 1;
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: 0;
+    width: 275px;
+    border-radius: 2px;
+}
+
+#gp-container-panel-text {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+
+#gp-footer {
+    background: #0A0A0A;
+    border-top: 1px solid #181818;
+    bottom: 0;
+    height: 70px;
+    min-width: 640px;
+    position: fixed;
+    width: 100%;
+    z-index: 110;
+
+    color: #fff;
+}
+
+#gp-footer-left {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 20px 0 0 40px;
+    vertical-align: top;
+}
+
+#gp-footer-right {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin: 20px 24px 0 0;
+    vertical-align: top;
+}
+
+#box-image {
+    position: relative;
+
+    background: #0A0A0A;
+    border: 1px solid #181818;
+}
+
+#gp-view-toleft {
+
+}

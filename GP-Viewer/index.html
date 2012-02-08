@@ -3,9 +3,34 @@
 <head>
     <title>GP Viewer</title>
     <link href="css/cssreset-min.css" rel="stylesheet" type="text/css" />
+    <link href="css/gp-viewer.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" language="JavaScript" src="js/mootools-core-1.4.4-full-nocompat-yc.js"></script>
 </head>
 <body>
     <h1 style="text-align: center">Google+ Image Viewer</h1>
+
+    <div id="gp-view">
+        <div id="gp-close"><div> </div></div>
+        <div id="gp-toleft"><div> </div></div>
+        <div id="gp-toright"><div> </div></div>
+
+        <div id="gp-container">
+            <div id="gp-container-for-image">
+                <div id="gp-container-image">
+                    <img src="images/1.jpg" />
+                </div>
+            </div>
+            <div id="gp-container-panel">
+                <div id="gp-container-panel-text">
+                    Text Text Text
+                </div>
+            </div>
+        </div>
+
+        <div id="gp-footer">
+            <div id="gp-footer-left">Some left info</div>
+            <div id="gp-footer-right">Some right info</div>
+        </div>
+    </div>
 </body>
 </html>
